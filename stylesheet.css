@@ -1,4 +1,38 @@
-// Voici notre feuille de Css
+/* Palette de couleur  = #FF9700, #F8F1EB, #F1E8E1, #DED6CA, #A09993*/
+body {
+    background-color : #FF9700;
+}
 .heater {
-block :inline;
+  max-width : 100em;
+  max-height : 200em;
+  display : block;
+  /*margin : Espace que ne peut pas être touché */
+  padding-bottom: 1em;
+}
+.heater h1 {
+    font-size: 5em;
+    color: #F8F1EB;
+}
+.heater div {
+  display : inline-block;
+  width : 8em;
+  height : 40em;
+  border-width:0.2em;
+  border-style: groove; /* style de la bordure */
+  border-color:#F1E8E1;
+  text-align : center;
+  font-family : Arial;
+  font-size : 3em;
+  color: #F8F1EB;
+}
+.bouton  {
+    display : block;
+    max-width : 100em;
+    height : 3em;
+    border:0.3em solid black;
+
+}
+.bouton p{
+  font-size:0.5em;
+  font-family: Arial;
 }
